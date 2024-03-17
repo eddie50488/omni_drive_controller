@@ -24,8 +24,8 @@ namespace omni_drive_controller
     double vy = vel.vy;
     double wl = vel.omega;
     double forward = 1.0;
-    double backward = 2.0;
-    double idle = 4.0;
+    double backward = 0.0;
+    double idle = 2.0;
 
     if (vx > 0)
     {
